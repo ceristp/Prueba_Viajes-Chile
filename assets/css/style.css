@@ -1,0 +1,343 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 0.75em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 0.8125em;
+}
+
+h4 {
+    font-size: 0.75em;
+}
+
+p {
+    font-size: 0.75em;
+}
+
+span {
+    font-size: 0.75em;
+}
+
+/* Barra de Menu */
+
+.navbar {
+    padding: 0 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size: 0.625em;
+}
+
+.navcolor.scrolled {
+    background-color: #17a4b8 !important;
+    transition: background-color 500ms linear;
+}
+
+.img-size {
+    height: 1.375em;
+    width: 1.375em;
+}
+
+.tcolor {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 10%;
+}
+
+/* Slider de Header */
+
+.carousel img {
+    height: 24.625em;
+}
+
+/* Seccion Titulo 1 Quienes somos */
+
+.titulo1 {
+    padding-top: 2.1875em;
+}
+
+.divisor {
+    background-color: #17A3B8;
+    height: 1px;
+    margin-top: 1em;
+    margin-bottom: 1.5625em;
+}
+
+/* Seccion 3 Articulos */
+
+article {
+    margin-top: 0.3125em;
+    margin-bottom: 0.3125em;
+    max-height: 15.625em;
+}
+
+.icon-article {
+    background-color: #17a4b8;
+    text-align: center;
+    height: 1.5625em;
+}
+
+.texto-parrafo1 {
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+.texto-parrafo2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+.texto-parrafo3 {
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+/* Seccion Titulo 2 Destacados */
+
+.titulo2 {
+    padding-top: 5em;
+}
+
+
+/* Seccion Tarjetas */
+
+.card {
+    height: 16em;
+    width: 10.3125em;
+}
+
+.img-card {
+    max-height: 6.25em;
+}
+
+.img-card2 {
+    max-height: 6.25em;
+}
+
+.card-body {
+    padding: 0.625em 1px 1px 0.625em;
+    text-align: left;
+    background-color: #17A3B8;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+.card-title {
+    margin: 0;
+    padding-bottom: 0.625em;
+}
+
+.card-text {
+    margin: 0;
+}
+
+
+/* Seccion Titulo 3 Contacto */
+
+.titulo3 {
+    padding-top: 5em;
+}
+
+.sectcontacto {
+    margin-bottom: 1.375em;
+}
+
+/* Typeform */
+
+iframe {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border: 0;
+    height: 18.375em;
+}
+
+
+/* Seccion Footer */
+
+footer {
+    height: 2.25em;
+    background-color: #17A3B8;
+}
+
+.brand-footer {
+    font-size: 1em;
+    padding-top: 0.375em;
+    margin: 0;
+}
+
+.icon-footer i {
+    font-size: 1.25em;
+    padding-top: 0.4375em;
+}
+
+@media screen and (max-width: 575px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    .carousel img {
+        height: 20rem;
+    }
+
+    article {
+        font-size: 28px;
+    }
+
+    .card {
+    min-height: 450px;
+    height: 100%;
+    width: 100%;
+    }
+
+    .card-body {
+        font-size: 28px;
+    }
+
+    .img-card {
+        max-height: 18rem;
+    }
+
+    .img-card2 {
+        max-height: 64%;
+    }
+
+    .container {
+        max-height: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .carousel img {
+        height: 25.875rem;
+    }
+
+    article {
+        font-size: 22px;
+    }
+
+    .card {
+        min-height: 350px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .card-body {
+        font-size: 22px;
+    }
+    
+    .img-card {
+        max-height: 18rem;
+    }
+
+    .img-card2 {
+        max-height: 46%;
+    }
+    
+    .container {
+        max-height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        font-size: 24px;
+    }
+
+    .carousel img {
+        height: 37.5rem;
+    }
+
+    .card {
+        min-height: 400px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .img-card {
+        max-height: 28rem;
+    }
+
+    .img-card2 {
+        max-height: 35%;
+    }
+    
+    .container {
+        max-height: 100%;
+    }
+
+    iframe {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border: 0;
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    
+    body {
+        font-size: 24px;
+    }
+
+    .carousel img {
+        height: 46rem;
+    }
+
+    .card {
+        min-height: 450px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .img-card {
+        max-height: 100%;
+    }
+
+    .img-card2 {
+        max-height: 38%;
+    }
+
+    .container {
+        max-height: 100%;
+    }
+
+    iframe {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border: 0;
+        height: 25rem;
+    }
+}

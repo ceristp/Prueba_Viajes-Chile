@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Prueba - Viajes Chile</title>
+        <link rel="shortcut icon" type="image/png" href="./assets/img/viajes.svg">
+        <meta name="author" content="Ceristp">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap version 4.6.0 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <!-- Fuentes de Google -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ee5b3e7aa4.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
+        <script src="assets/js/viajeschile.js"></script>
+
+        <!-- Mi CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <header id="top">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top navcolor">
+                <div class="container">
+                    <a href="index.html#top" class="navbar-bran text-white">
+                        <img src="assets/img/viajes.svg" alt="Logo" class="img-size">
+                        <span>Viajes Chile</span>
+                    </a>
+                    <div class="tcolor">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="menu-principal">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html#top" class="nav-link active">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Quienes-Somos" class="nav-link">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Destacados" class="nav-link">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Contacto" class="nav-link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Slider del Header -->
+            <div id="slider-principal" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="imgSlider1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="imgSlider2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="imgSlider3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#slider-principal" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#slider-principal" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Titulo 1 Quienes Somos -->
+        <section id="Quienes-Somos" class="titulo1">
+            <div class="text-white text-center">
+                <h2>¿Quiénes somos?</h2>
+            </div>
+        </section>
+
+        <!-- 3 Parrafos de texto con favicon -->
+        <section id="secarticle" class="d-none d-sm-block">
+            <div class="container">
+                <hr class="divisor">
+                <div class="row text-white">
+                    <article id="article1" class="col-md-4">
+                        <div class="icon-article">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <!-- JS Texto Cambia Color -->
+                        <p class="texto-parrafo1" data-toggle="tooltip" title="Doble Click para colorear parrafo verde">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem distinctio ipsa vel rerum mollitia facilis at esse quo cum harum non nobis fugiat maxime veniam voluptates id voluptatum aperiam laboriosam optio, corrupti iusto inventore quas nam aut. Quasi vel natus perferendis illo! Debitis aut repudiandae molestiae illum accusantium porro magnam veniam vel ut. Animi a, iure consectetur nulla corrupti facere doloremque at rem maiores consequatur molestiae sequi ab explicabo distinctio.</p>
+                    </article>
+                    <article id="article2" class="col-md-4">
+                        <!-- JS Texto Cambia Color -->
+                        <p class="texto-parrafo2" data-toggle="tooltip" title="Doble Click para colorear parrafo rojo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem distinctio ipsa vel rerum mollitia facilis at esse quo cum harum non nobis fugiat maxime veniam voluptates id voluptatum aperiam laboriosam optio, corrupti iusto inventore quas nam aut. Quasi vel natus perferendis illo! Debitis aut repudiandae molestiae illum accusantium porro magnam veniam vel ut. Animi a, iure consectetur nulla corrupti facere doloremque at rem maiores consequatur molestiae sequi ab explicabo distinctio.</p>
+                        <div class="icon-article">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </article>
+                    <article id="article3" class="col-md-4">
+                        <div class="icon-article">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <!-- JS Texto Cambia Color -->
+                        <p class="texto-parrafo3" data-toggle="tooltip" title="Doble Click para colorear parrafo amarillo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem distinctio ipsa vel rerum mollitia facilis at esse quo cum harum non nobis fugiat maxime veniam voluptates id voluptatum aperiam laboriosam optio, corrupti iusto inventore quas nam aut. Quasi vel natus perferendis illo! Debitis aut repudiandae molestiae illum accusantium porro magnam veniam vel ut. Animi a, iure consectetur nulla corrupti facere doloremque at rem maiores consequatur molestiae sequi ab explicabo distinctio.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Titulo 2 Destacados -->
+        <section id="Destacados" class="titulo2">
+            <h2 class="text-white text-center">Destacados</h2>
+        </section>
+
+        <!-- Seccion de Tarjetas -->
+        <section id="sectmiddle">
+            <div class="container">
+                <hr class="divisor">
+                <div class="card-deck text-white">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-1 row-cols-sm-2 row-cols-md-4">
+                            <!-- Tarjeta 1 -->
+                            <div class="col mb-4">
+                                <div class="card mx-auto">
+                                    <img src="./assets/img/card1.jpg" class="card-img-top img-card" alt="card1">
+                                    <div class="card-body">
+                                        <!-- Tooltip1 -->
+                                        <h4 class="card-title" data-toggle="tooltip" title="Doble Click para esconder parrafo de abajo">Lorem ipsum dolor sit amet</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor Incididunt ut labore et dolore</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 2 -->
+                            <div class="col mb-4">
+                                <div class="card mx-auto">
+                                    <img src="./assets/img/card2.jpg" class="card-img-top img-card2" alt="card2">
+                                    <div class="card-body">
+                                        <!-- Tooltip2 -->
+                                        <h4 class="card-title" data-toggle="tooltip" title="Doble Click para esconder parrafo de abajo">Lorem, ipsum dolor</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 3 -->
+                            <div class="col mb-4">
+                                <div class="card mx-auto">
+                                    <img src="./assets/img/card3.jpg" class="card-img-top img-card" alt="card3">
+                                    <div class="card-body">
+                                        <!-- Tooltip3 -->
+                                        <h4 class="card-title" data-toggle="tooltip" title="Doble Click para esconder parrafo de abajo">Lorem ipsum dolor sit amet consectetur adipisicing</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tarjeta 4 -->
+                            <div class="col mb-4">
+                                <div class="card mx-auto">
+                                    <img src="./assets/img/card4.jpg" class="card-img-top img-card" alt="card4">
+                                    <div class="card-body card_destacados">
+                                        <!-- Tooltip4 -->
+                                        <h4 class="card-title" data-toggle="tooltip" title="Doble Click para esconder parrafo de abajo">Lorem ipsum dolor sit amet</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin de Tarjetas -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Titulo 3 Contacto -->
+        <section id="Contacto" class="titulo3">
+            <h2 class="text-white text-center">Contacto</h2>
+        </section>
+
+        <!-- Seccion Typeform -->
+        <section id="sectdown" class="sectcontacto text-center">
+            <div class="container">
+                <hr class="divisor">
+                <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://form.typeform.com/to/mnrGg8UG?typeform-medium=embed-snippet"></iframe>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="piepagina" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="brand-footer text-white">VIAJES CHILE</p>
+                    </div>
+                    <div class=" col-6 icon-footer">
+                        <a href="https://github.com/ceristp" target="_blank"><i class="fab fa-github-square text-white px-1"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin text-white px-1"></i></a> 
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square text-white px-1"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square text-white px-1"></i></a>               
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
